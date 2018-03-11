@@ -1,16 +1,15 @@
 package q01_binarySearch;
 
-import com.sun.tools.javac.util.List;
-import org.junit.jupiter.api.BeforeEach;
+//import com.sun.tools.javac.util.List;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 @DisplayName("Q01 Binary Search")
 class SolutionTest {
